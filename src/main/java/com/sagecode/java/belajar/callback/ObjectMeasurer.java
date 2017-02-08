@@ -13,9 +13,8 @@ public class ObjectMeasurer implements Measurer{
 
     /**
      *  Computes the average of the measures of the given objects.
-     *  @param objects an array of objects
-     *  @param meas the measurer for the objects
-     *  @return the average of the measures
+     *  @param anObject an object
+     *  @return value from the called object
      */
     public double measure(Object anObject) 
     {
